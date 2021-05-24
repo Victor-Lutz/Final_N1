@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-bt">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+			
+		<title>Don't Starve Together</title>
+	</head>
+
+	<body style="background:#7B68EE;">
+		<section class="container">
+			<header style="background:#5F9EA0; width:100%; height:60px;">
+				<h1 class="text-center" style="color:#F0E68C;">Don't Starve Together</h1>
+			</header>
+			<main style="background:#708090; width:100%; heigth:100px;">
+				<img src="img/1.jpg" width="100%" ; height="350px" ; />
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/2.png" height="400px"/>
+					</div>
+
+					<div class="col-md-3">
+						<img src="img/3.png" height="400px"/>
+					</div>
+					
+					<div class="col-md-6">
+						<p class="text-left" style="font-size:20px; color:#F0E68C;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					</div>
+				</div>
+			</main>
+				<div style="background:#708090; width:50%; float:left">
+					<h2 style="color:#F0E68C;">Lorem Impsum<h2>
+					<hr>
+					<p style="font-size:20px; color:#F0E68C;">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+					</p>
+					<hr>
+					<p style="font-size:20px; color:#F0E68C;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+					</p>
+				</div>
+			<aside style="background:#708090; width:50%; float:right">
+				<h3 style="color:#F0E68C;">Crie uma Conta!</h3>
+				<div style="width:50%; padding:17%;">
+					<form>
+						<div class="form-group">
+							<label for="name" style="color:#F0E68C;">Nome</label>
+							 <input type="text" name="nome" id="n">
+						</div>
+						<div class="form-group">
+							<label for="email" style="color:#F0E68C;">E-mail</label>
+							<input type="email" name="email">
+						</div>
+						<button class="btn btn-info" onclick="mensagem()">Enviar</button>
+					</form>
+				</div>
+				<div style="padding-top:5%" id="objetos"></div>
+			</aside>
+			<script>
+				function mensagem(){
+					var n = document.getElementById("n").value
+					alert("Nome: "+n)
+				}
+			</script>
+		</section>
+	</body>
+</html>
